@@ -1,4 +1,4 @@
-/** background-mover version 0.2
+/** background-move version 0.2
  *
  * Powered By JaeHo Song thruthesky@gmail.com
  * Open source code under GPL.
