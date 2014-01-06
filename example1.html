@@ -1,0 +1,53 @@
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="/background-mover/background-move.js"></script>
+<link rel="stylesheet" href="/background-mover/background-move.css" />
+<style>
+ul.menus {
+	position:relative;
+	z-index: 2;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menus .menu {
+	display:inline-block;
+	background-color: transparent;
+}
+.background {
+	position:absolute;
+	background-color: grey;
+	display:none;
+	z-index: 1;
+}
+</style>
+<script>
+	$(function(){
+		$('.mainmenu').move();
+	});
+</script>
+<div class='mainmenu'>
+	<ul class='menus'>
+				<li class='menu'>
+					<p>ABCDEFGHIJKLMN</p>
+					abcde<br>
+					fg hijklmn
+				</li>
+				<li class='menu'>12345</li>
+				<li class='menu'>How long is the width?</li>
+				<li class='menu'>
+				The fourth column<br>
+				a<br>
+				b<br>
+				c<br>
+				d
+				</li>
+				<li class='menu'>
+				This is not what I wanted.<br>
+				The site is no good.<br>
+				1<br>
+				2<br>
+				3<br>
+				4
+				</li>
+	</ul>
+</div>
